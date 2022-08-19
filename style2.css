@@ -69,13 +69,26 @@ margin: 4.5%;
 }
 
 .info-content h1{
-    margin: 2% 1%;
+    margin: 2% 4%;
+}
+.info-content h1 a{
+    text-decoration: none;
+    color: #000;
+    margin: 5%;
+    margin-left: 20%;
 }
 
 .info-content p{
-    margin: 1%;
+    margin: 4%;
+    font-weight: 600
 }
 
+.luro{
+    display: flex;
+    margin: auto;
+    justify-items: auto;
+    justify-content: space-around;
+}
 .info-content button{
 
     justify-content: center;
