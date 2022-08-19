@@ -17,25 +17,29 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 3vh;
+    padding: .5vh;
     background-image: radial-gradient(circle at center center, #f645f7, #a0ff9a), repeating-radial-gradient(circle at center center, #f645f7, #f645f7, 14px, transparent 28px, transparent 14px);
 }
 
 .brand {
-    margin-top: -2vh;
+    margin: auto;
+    margin-left: 1%;
     display: flex;
     height: 100%;
     max-width: 20%;
+    padding: 1%;
+    font-size: 80%;
 }
 
 .menu{ 
     display: flex;
     width: 80%;
-    justify-content: space-around;
     max-width: 80%;
+    margin: auto;
 }
 .menu li {
     list-style: none;
+    margin: auto;
     display: flex;
     max-width: 90%;
 }
@@ -58,7 +62,8 @@ body{
 .form{
     background-color: white;
     margin: auto;
-    margin-top: 2.2%;
+    margin-top: 1.5%;
+    margin-bottom: 25px;
     width: 90%;
     max-width: 400px;
     max-height: 550px;
@@ -66,6 +71,7 @@ body{
     border-radius: 10px ;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
     text-align: center;
+    
 }
 .form_title{
     font-size: 2rem;
