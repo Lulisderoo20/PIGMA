@@ -11,28 +11,33 @@ body{
     background-color: #a0ff9a;
     background-image: radial-gradient(circle at center center, #f645f7, #a0ff9a), repeating-radial-gradient(circle at center center, #f645f7, #f645f7, 14px, transparent 28px, transparent 14px);
     background-blend-mode: multiply;
-    display: flex;
     min-height: 100vh;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 5vh;
+    padding: 3vh;
     background-image: radial-gradient(circle at center center, #f645f7, #a0ff9a), repeating-radial-gradient(circle at center center, #f645f7, #f645f7, 14px, transparent 28px, transparent 14px);
 }
 
 .brand {
     margin-top: -2vh;
+    display: flex;
+    height: 100%;
+    max-width: 20%;
 }
 
 .menu{ 
     display: flex;
     width: 80%;
     justify-content: space-around;
+    max-width: 80%;
 }
 .menu li {
     list-style: none;
+    display: flex;
+    max-width: 90%;
 }
 .menu a {
     color: #fff;
