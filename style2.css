@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+body { 
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh;
+    background-image: radial-gradient(circle at center center, #f645f7, #a0ff9a), repeating-radial-gradient(circle at center center, #f645f7, #f645f7, 14px, transparent 28px, transparent 14px);
+}
+
+.brand {
+    margin-top: -2vh;
+}
+
+.menu{ 
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.menu li {
+    list-style: none;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3vh 3vw;
+}
+.menu .active {
+    color: orange;
+}
+.menu a:hover{
+    background-color: orange;
+    color: #1D162F;
+    transition: ease-in .1s;
+
+}
