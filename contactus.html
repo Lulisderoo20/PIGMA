@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style2.css"><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -25,11 +25,12 @@
     </header>
     <main class="main">
         <div class="info-content">
-            <h1>Contact <span>Pigma </span></h1>
+            <h1>Contact <span> Pigma </span></h1>
             <p>Somos un equipo de programadoras en busca de más programadoras para sumar a nuestro equipo y ampliar nuestra experiencia.</p>
             <p>Si estás interesade en colaborar con nosotras no dudes en contactarnos.</p>
             </div>
-            <ul class="datos">
+            <ul class="datos" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
                 <li><a href="https://api.whatsapp.com/send?phone=541126601086&text=Hi" target="_blank" class="nav-link">
                 <img src="whatsapp.png" id="wpp" width="50px"></a></li>
                 <li><a href="mailto:lulisdero20@gmail.com" target="_blank" class="mail">
@@ -38,5 +39,9 @@
                     <img src="ig.png" id="ig" width="50px" alt="iconoig"></a></li></ul>
         </main>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
         </body>
 </html>
